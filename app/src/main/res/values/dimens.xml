@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <!-- Default screen margins, per the Android Design guidelines. -->
+  <dimen name="activity_margin">16dp</dimen>
+  <dimen name="activity_horizontal_margin">0dp</dimen>
+
+  <!-- Weather -->
+  <dimen name="weather_item_padding">35dip</dimen>
+  <dimen name="weather_text_padding">25dip</dimen>
+  <dimen name="weather_item_space">10dip</dimen>
+  <dimen name="weather_text_size">22sp</dimen>
+  <dimen name="weather_image_margin">20dip</dimen>
+  <dimen name="weather_temperature_text_size">78sp</dimen>
+  <dimen name="error_button_margin">85dip</dimen>
+
+</resources>

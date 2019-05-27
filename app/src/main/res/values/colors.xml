@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="colorPrimary">@color/pink</color>
+  <color name="colorPrimaryDark">@color/pink</color>
+  <color name="colorAccent">@color/pink</color>
+
+  <color name="pink">#FF5670</color>
+  <color name="pink_light">#ffdfe4</color>
+  <color name="pink_lightest">#fff3f5</color>
+  <color name="yellow">#FFCE00</color>
+  <color name="purple">#A90097</color>
+  <color name="turquoise">#08A4A9</color>
+
+  <array name="colors">
+    <item>@color/pink</item>
+    <item>@color/yellow</item>
+    <item>@color/purple</item>
+    <item>@color/turquoise</item>
+  </array>
+
+  <color name="background_white">#fff3f5</color>
+  <color name="background_toolbar">@color/pink_light</color>
+  <color name="background_card_view">#FFFFFF</color>
+
+</resources>

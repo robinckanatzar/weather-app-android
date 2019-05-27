@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Weather</string>
+
+    <!-- Common -->
+    <string name="temperature_with_degree_celcius">%1$s °C</string>
+    <string name="weather_wind">%1$s / %2$s</string>
+    <string name="icon_url">http://openweathermap.org/img/w/%1$s.png</string>
+
+    <!-- Details -->
+    <string name="weather_temperature_min_title">Température min.</string>
+    <string name="weather_temperature_max_title">Température max.</string>
+    <string name="weather_temperature_uv_title">Index UV</string>
+    <string name="weather_temperature_wind_title">Vent</string>
+
+    <!-- Error -->
+    <string name="error_retry">Réessayer</string>
+    <string name="connectivity_problem">Votre terminal n\'est actuellement pas connecté à Internet, ou bien votre connexion est très mauvaise.</string>
+    <string name="unavailable_item">Impossible de récupérer correctement l\'élément\u00A0: cet écran ne peut être affiché correctement, désolé.</string>
+
+    <!-- Home -->
+    <string name="menu_settings">Paramètres</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Paramètres</string>
+    <string name="settings_city_hint">Ville</string>
+    <string name="settings_forecasts_number_hint">Nombre de jours</string>
+    <string name="settings_ok_button">OK</string>
+    <string name="settings_cancel_button">ANNULER</string>
+
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <style name="Base.AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+    <item name="colorButtonNormal">@color/colorPrimary</item>
+    <item name="titleTextColor">@color/colorPrimary</item>
+    <item name="android:windowBackground">@android:color/white</item>
+    <item name="windowActionBar">false</item>
+  </style>
+
+  <style
+    name="AppTheme"
+    parent="Base.AppTheme"
+  >
+  </style>
+
+  <style name="Base.AppTheme.NoActionBar">
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+  </style>
+
+  <style
+    name="AppTheme.NoActionBar"
+    parent="Base.AppTheme.NoActionBar"
+  />
+
+  <style
+    name="AppTheme.PopupOverlay"
+    parent="ThemeOverlay.AppCompat.Light"
+  />
+
+  <style name="WeatherText">
+    <item name="android:textColor">@android:color/white</item>
+    <item name="android:textSize">@dimen/weather_text_size</item>
+    <item name="android:singleLine">true</item>
+    <item name="android:ellipsize">end</item>
+  </style>
+
+  <style
+    name="WeatherText.Light"
+    parent="WeatherText"
+  >
+  </style>
+
+  <style
+    name="WeatherText.Temperature"
+    parent="WeatherText.Light"
+  >
+    <item name="android:textSize">@dimen/weather_temperature_text_size</item>
+  </style>
+
+  <style
+    name="AppTheme.Toolbar"
+    parent="Base.ThemeOverlay.AppCompat.ActionBar"
+  >
+    <item name="colorControlNormal">@color/colorPrimary</item>
+  </style>
+
+    <!-- Full Screen Dialog Fragment -->
+    <style name="FullScreenDialogStyle" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowBackground">@color/background_white</item>
+    </style>
+
+</resources>

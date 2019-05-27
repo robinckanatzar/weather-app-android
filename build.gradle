@@ -1,0 +1,21 @@
+buildscript {
+    apply from: 'versions.gradle'
+    addRepos(repositories)
+    dependencies {
+        classpath deps.android_gradle_plugin
+        classpath 'io.fabric.tools:gradle:1.+'
+
+    }
+    repositories {
+        google()
+        maven { url 'https://maven.fabric.io/public' }
+    }
+}
+
+allprojects {
+    addRepos(repositories)
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
